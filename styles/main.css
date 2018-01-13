@@ -2,3 +2,22 @@
     width: 230px;
     height: 250px;
 }
+
+/* Flex Box */
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content:stretch;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.left {
+    margin-right: 8px;
+}
+
+.right {
+    flex-grow: 1;
+    margin-left: 8px;
+}
